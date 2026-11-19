@@ -1,0 +1,38 @@
+{
+    "generated_from":  "IC-705 v1 + make_net_patch.py",
+    "releases":  [
+                     {
+                         "input":  {
+                                       "file":  "705E140.dat",
+                                       "md5":  "2c9c1d7f3fc80ef173e01d841cd1248a",
+                                       "radio":  "IC-705",
+                                       "region":  "E",
+                                       "version":  "1.40"
+                                   },
+                         "release":  {
+                                         "name":  "705E140_20261117_v1+net",
+                                         "patch_file":  "705E140_net.json",
+                                         "patch_sha256":  "15864715b00fc712bbadcb1c6afbf7e8b903f75601723189efb292a4051944eb",
+                                         "label":  "20261117_v1+net",
+                                         "date":  "2026-11-17",
+                                         "title":  "IC-705 E 1.40 + app network/file/audio API",
+                                         "description":  "IC-705 E1.40 20261113v1 + app network/file/audio API (_v1+net layer, built 20261117)",
+                                         "features":  [
+                                                          "Transverter support: 8 slots (TRV1–TRV8, RF / IF), RF shown on the display up to 122 GHz",
+                                                          "CI-V frequency read/write in RF terms",
+                                                          "Per-transverter maximum TX power and TX delay (up to 300 ms, all modes)",
+                                                          "Scope Set \u003e Scope dB/div: 10 / 6 / 3 / 1 dB per division for spectrum and waterfall, noise floor anchored automatically",
+                                                          "Custom A/B bootloader: hold POWER at power-on until the LED blinks (~3 s) to boot the other firmware slot",
+                                                          "SD-card apps: MENU \u003e SET \u003e Apps (\\IC-705\\Apps\\)",
+                                                          "Extended TX ranges and 4 m (70 MHz) TX from the E base build",
+                                                          "Extended network, SD file and audio API required by rsba1.app and ftp.app",
+                                                          "Opening screen: customized by IU2FRL - 20261117_v1+net"
+                                                      ],
+                                         "output_md5":  "787d007de6e410cc28ac39a2f217add7",
+                                         "output_main_md5":  "64e0fe16a8a40a3eab4a71d65e33178c",
+                                         "bootloader":  true,
+                                         "tx_outside_amateur_bands":  true
+                                     }
+                     }
+                 ]
+}
