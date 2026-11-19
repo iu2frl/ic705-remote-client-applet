@@ -10,6 +10,7 @@
 <meta name="description" content="Patch your IC-705 firmware in your browser and download the remote client and FTP apps by IU2FRL.">
 <link rel="stylesheet" href="style.css">
 <script type="module" src="js/app.js"></script>
+<script type="module" src="js/consent.js"></script>
 </head>
 <body>
 <header class="top">
@@ -89,11 +90,17 @@
           <p>To switch firmware slots afterwards, hold POWER at startup until the LED blinks
             (about 3 seconds). Installing official firmware restores the stock bootloader.</p>
         </div>
-        <label class="accept"><input type="checkbox" id="accept"> I have read the warnings,
+        <label class="accept"><input type="checkbox" id="accept-warnings"> I have read the warnings,
           accept the risks, and will use reliable power and test safely.</label>
+        <label class="accept"><input type="checkbox" id="accept" disabled> I understand and agree that
+          IU2FRL and the other authors of this firmware and these apps accept no responsibility or
+          liability for any damage, malfunction or loss of function of my transceiver or of any connected
+          equipment, whether temporary or permanent, caused by building, installing or using them. By
+          starting this operation I voluntarily assume all risks and full responsibility for the
+          consequences.</label>
         <div class="actions">
           <button id="build" type="button" class="primary" disabled>Build &amp; download</button>
-          <span id="build-hint" class="muted small">Accept the warnings to continue.</span>
+          <span id="build-hint" class="muted small">Tick both boxes to continue.</span>
         </div>
         <div id="progress" class="progress" hidden>
           <div class="bar" role="progressbar" aria-label="Firmware build progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="bar"></span></div>

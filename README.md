@@ -12,7 +12,8 @@ Checksums for all published files are in [SHA256SUMS](SHA256SUMS).
 
 1. Obtain the official **IC-705 E 1.40 `705E140.dat`** from Icom yourself.
    Other regions, versions and radios are not supported by these apps.
-2. Open the web patcher, read its warnings, select your official file, and build
+2. Open the web patcher, read its warnings, accept the liability disclaimer,
+   select your official file, and build
    the network/file/audio firmware. Processing stays in your browser; the official
    and modified firmware files are not distributed here.
 3. Install using Icom's SD-card firmware update procedure. Use reliable power:
