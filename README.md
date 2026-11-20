@@ -7,6 +7,8 @@ firmware may damage or brick your radio and may void its warranty.
 **[Open the web patcher and app downloads](https://iu2frl.github.io/ic705-remote-client-applet/)**.
 The apps and example configuration are also available in [docs/apps/](docs/apps/).
 Checksums for all published files are in [SHA256SUMS](SHA256SUMS).
+The site's "Last modified" time is when its latest changed snapshot was generated
+by the publishing script, in UTC; it is not the app compilation time.
 
 ## Installation
 
