@@ -1,5 +1,5 @@
 {
-    "generated_from":  "IC-705 v1 + make_net_patch.py",
+    "generated_from":  "IC-705 E140 + make_net_patch.py",
     "releases":  [
                      {
                          "input":  {
@@ -10,21 +10,21 @@
                                        "version":  "1.40"
                                    },
                          "release":  {
-                                         "name":  "705E140_20261117_v1+net",
+                                         "name":  "705E140_20261119v8+net",
                                          "patch_file":  "705E140_net.json",
-                                         "patch_sha256":  "15864715b00fc712bbadcb1c6afbf7e8b903f75601723189efb292a4051944eb",
-                                         "label":  "20261117_v1+net",
-                                         "date":  "2026-11-17",
+                                         "patch_sha256":  "44852c61d0a9a5b8ed2e9688602412354e2f1a6e81a571cbaa43b85751ca55e1",
+                                         "label":  "20261119v8+net",
+                                         "date":  "2026-11-19",
                                          "title":  "IC-705 E 1.40 + app network/file/audio API",
-                                         "description":  "IC-705 E1.40 20261113v1 + app network/file/audio API (_v1+net layer, built 20261117)",
+                                         "description":  "IC-705 E1.40 20261119v8 + app network/file/audio API (+net layer)",
                                          "features":  [
                                                           "Added network access for homebrew apps",
                                                           "Added SD-card file and audio support",
                                                           "Supports the remote client and FTP apps",
                                                           "Includes upstream transverter, scope, extended TX and A/B boot features"
                                                       ],
-                                         "output_md5":  "787d007de6e410cc28ac39a2f217add7",
-                                         "output_main_md5":  "64e0fe16a8a40a3eab4a71d65e33178c",
+                                         "output_md5":  "588c337d741485ef16a71e5d3e01b02e",
+                                         "output_main_md5":  "5ec46c3379ffcc8772d28ff2037b56ad",
                                          "bootloader":  true,
                                          "tx_outside_amateur_bands":  true
                                      }
